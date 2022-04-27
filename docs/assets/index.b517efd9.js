@@ -46,6 +46,7 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
     align-items: center;
     gap: 1rem;
     margin-top: 30px;
+    width: auto;                                                                                             
 `;ve.img`
     display: block;
     width: 120px;
