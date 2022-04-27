@@ -43,12 +43,13 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
     font-family: 'Lato', sans-serif;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 1rem;
     margin-top: 30px;
     width: auto;                                                                                             
 `;ve.img`
-    display: block;
+    
     width: 120px;
 
 `;const Pr=ve.p`
@@ -111,7 +112,6 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
   max-width: 900px;
   margin: 0 auto;
   width: 90%;
-  grid-template-columns: none;
   @media (min-width: 992px){
     display: grid;
     grid-template-columns: repeat(2, 1fr);
