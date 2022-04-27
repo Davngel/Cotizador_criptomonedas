@@ -111,6 +111,8 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
   max-width: 900px;
   margin: 0 auto;
   width: 90%;
+  display: flex;
+  flex-direction: column;
   @media (min-width: 992px){
     display: grid;
     grid-template-columns: repeat(2, 1fr);
